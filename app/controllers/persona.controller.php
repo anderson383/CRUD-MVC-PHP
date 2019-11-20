@@ -28,7 +28,6 @@ class PersonaController
         $this->entidad->setTelefonoUsuario($datos['txtTelefono']);
         $this->entidad->setCorreoUsuario($datos['txtCorreo']);
         $this->entidad->setIdScopeUsuario($id);
-
         $this->persona->insertarBaseDatos($this->entidad);
 
     }
