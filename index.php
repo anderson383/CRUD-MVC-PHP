@@ -1,0 +1,1 @@
+<?php require 'app/vistas/pages/inicio.php'; ?>
